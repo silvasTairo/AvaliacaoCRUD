@@ -32,6 +32,15 @@ async function insertCustomer(customer) {
     await client.query(sql, values);
 }
 
+// Função para puxar todos os clientes
+async function getCustomers() {
+    const client = await connect();
+    const sql = "SELECT * FROM clientes;";
+    const result = await client.query(sql);
+    return result.rows;
+}
+
 module.exports = {
-    insertCustomer
+    insertCustomer,
+    getCustomers
 }

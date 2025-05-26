@@ -17,6 +17,12 @@ app.post("/clientes", async (req, res) => {
     res.status(201);
 })
 
+// Rota para puxar todos os clientes
+app.get("/clientes", async (req, res) => {
+    const clientes = await db.getCustomers();
+    res.status(200).json(clientes);
+});
+
 app.listen(port);
 
 console.log("Backend Rodando!")
