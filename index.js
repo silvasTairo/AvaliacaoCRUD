@@ -14,7 +14,6 @@ app.use(express.json());
 // Rota para inserir clientes
 app.post("/clientes", async (req, res) => {
     await db.insertCustomer(req.body);
-
     res.status(201);
 })
 
