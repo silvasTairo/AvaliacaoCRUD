@@ -12,15 +12,15 @@ app.use(express.json());
 
 
 // Rota para inserir clientes
-app.post("/clientes", async (req, res) => {
+app.post("/client", async (req, res) => {
     await db.insertCustomer(req.body);
     res.status(201);
 })
 
 // Rota para puxar todos os clientes
-app.get("/clientes", async (req, res) => {
-    const clientes = await db.getCustomers();
-    res.status(200).json(clientes);
+app.get("/client", async (req, res) => {
+    const client = await db.getCustomers();
+    res.status(200).json(client);
 });
 
 app.listen(port);
