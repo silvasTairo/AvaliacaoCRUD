@@ -13,3 +13,4 @@
 
 ## Teste da rota DELETE para 1 item da tabela
 ]![teste rota delete](https://github.com/user-attachments/assets/983275d3-8f13-4d42-bc4f-ae930673d9f8)
+![image](https://github.com/user-attachments/assets/00eb071a-7528-4327-b6a9-9b5309d49d82)
