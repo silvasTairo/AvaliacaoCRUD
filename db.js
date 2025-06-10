@@ -61,8 +61,7 @@ const client = await connect();
 const sql = "UPDATE client SET nome=$1, idade=$2, profissao=$3 WHERE cpf=$4";
 
 // parâmetros que devem ser injetados na consulta
-const values = [customer.nome, customer.idade,
-customer.profissao, id];
+const values = [customer.nome, customer.idade, customer.profissao, id];
 
 await client.query(sql, values);
 }
