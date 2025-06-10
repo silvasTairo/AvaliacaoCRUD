@@ -12,6 +12,8 @@
 
 ## Teste da rota PATCH para 1 item da tabela
 ![image](https://github.com/user-attachments/assets/59c347b1-d8d1-47a2-99a6-e3e17c63a3e3)
+![image](https://github.com/user-attachments/assets/da53b97e-2270-4cf0-aee0-94df798f6302)
+
 
 ## Teste da rota DELETE para 1 item da tabela
 ]![teste rota delete](https://github.com/user-attachments/assets/983275d3-8f13-4d42-bc4f-ae930673d9f8)
